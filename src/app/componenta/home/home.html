@@ -1,3 +1,46 @@
 
-<h1>המשפחה שלנו </h1>
-<button>הוספת משתמש</button>
+<main class="home-page" dir="rtl">
+  <section class="welcome-card" aria-labelledby="home-title">
+    <p class="eyebrow">המרחב המשפחתי שלך</p>
+    <h1 id="home-title">המשפחה שלנו</h1>
+    <p class="intro">כל אנשי הקשר, האירועים וההודעות המשפחתיות במקום אחד.</p>
+
+    <nav class="home-actions" aria-label="ניווט ראשי">
+      <a class="action-card primary" routerLink="/contacts/new">
+        <span class="action-icon" aria-hidden="true">＋</span>
+        <span>
+          <strong>הוספת איש קשר</strong>
+          <small>שמירת פרטי בן משפחה או חבר</small>
+        </span>
+        <span class="arrow" aria-hidden="true">←</span>
+      </a>
+
+      <a class="action-card" routerLink="/events">
+        <span class="action-icon" aria-hidden="true">▦</span>
+        <span>
+          <strong>אירועים</strong>
+          <small>צפייה באירועים ובמפגשים</small>
+        </span>
+        <span class="arrow" aria-hidden="true">←</span>
+      </a>
+
+      <a class="action-card" routerLink="/contacts">
+        <span class="action-icon" aria-hidden="true">♧</span>
+        <span>
+          <strong>אנשי קשר</strong>
+          <small>מעבר לרשימת אנשי הקשר</small>
+        </span>
+        <span class="arrow" aria-hidden="true">←</span>
+      </a>
+
+      <a class="action-card" routerLink="/email">
+        <span class="action-icon" aria-hidden="true">✉</span>
+        <span>
+          <strong>שליחת אימייל</strong>
+          <small>מעבר למסך שליחת הודעה</small>
+        </span>
+        <span class="arrow" aria-hidden="true">←</span>
+      </a>
+    </nav>
+  </section>
+</main>
