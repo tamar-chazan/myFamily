@@ -8,7 +8,7 @@ export class Service1 {
 
   getSomething(): Observable<any> {
     return this.http.get<any>(
-      'https://unpkg.com/emoji.json@16.0.0/emoji.json'
+      'https://localhost:7236/WeatherForecast'
     );
   }
 }
